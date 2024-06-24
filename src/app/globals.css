@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+input[type="number"] {
+
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  box-sizing: border-box;
+}
