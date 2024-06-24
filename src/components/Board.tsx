@@ -36,7 +36,7 @@ const Board: React.FC = () => {
   }, [cards]);
 
   return (
-    <div className="relative w-full h-screen ">
+    <div className="relative w-full h-screen bg-orange-900">
       <svg className="absolute top-0 left-0 w-full h-full pointer-events-none z-10">
         {lines.map((line, index) => (
           <SvgLine key={index} start={line.start} end={line.end} />

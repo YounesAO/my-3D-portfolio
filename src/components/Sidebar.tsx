@@ -37,9 +37,9 @@ const Sidebar = () => {
             <h2 className="text-2xl font-bold mb-4">Settings</h2>
             {(!orbit)?
             <>
-            <button onClick={reset} className="bg-gray-800 text-white w-full p-2 rounded-md mb-4">Reset</button>
-            <button onClick={about} className="bg-gray-800 text-white w-full p-2 rounded-md mb-4">Who am I</button>
-            <button onClick={project} className="bg-gray-800 text-white w-full p-2 rounded-md mb-4">What do I do</button>
+            <button onClick={reset} className="bg-gray-800 text-white w-full p-2 rounded-md mb-2">Reset</button>
+            <button onClick={about} className="bg-gray-800 text-white w-full p-2 rounded-md mb-2">Who am I</button>
+            <button onClick={project} className="bg-gray-800 text-white w-full p-2 rounded-md mb-2">What do I do</button>
             </>:null}
             <button onClick={setOrbit} className= {((!orbit)? 'bg-green-600':'bg-red-600')+" text-white w-full p-2 rounded-md mb-4"}>{(orbit)? 'Stop ✊':'use ✋'} </button>
 

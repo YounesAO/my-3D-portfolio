@@ -29,7 +29,7 @@ export  default function Model(props) {
         >
           <iframe
             src="/home"
-            style={{ position:'relative' , left:214, top:378,width: '800px', height: '800px', border: 'none' }}
+            style={{ position:'relative' , left:0, top:0,width: '800px', height: '800px', border: 'none' }}
             frameBorder="0"
           />
         </Html>
