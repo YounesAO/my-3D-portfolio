@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Line.jsx", "src/components/Card.jsx", "src/components/Board.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Line.tsx", "src/components/Card.tsx", "src/components/Board.tsx"],
   "exclude": ["node_modules"]
 }
